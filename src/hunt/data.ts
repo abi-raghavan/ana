@@ -35,7 +35,7 @@ export const stages: Stage[] = [
       'Breakfast at Vivanta.',
       'lets go honey!',
     ],
-    photo: '/media/photo-1.webp',
+    photo: 'media/photo-1.webp',
   },
   {
     id: 'shopping',
@@ -50,18 +50,19 @@ export const stages: Stage[] = [
       'Gold & diamonds.',
       'Point at whatever catches your eye today.',
     ],
-    photo: '/media/photo-2.webp',
+    photo: 'media/photo-2.webp',
   },
   {
     id: 'cafe',
     time: '1:30 PM',
     emoji: '☕',
     title: 'Stop Three',
-    question: 'Our comfort cafe. Just the short name.',
+    question: 'Would love to spend sunset at this cafe.',
     type: 'trivia',
-    accept: ['coz'],
-    hint: 'Three letters. Where we always end up.',
-    reveal: ['Our comfort cafe.', 'Coz.'],
+    accept: ['olam'],
+    hint: 'Four letters. Our comfort cafe.',
+    reveal: ['Our comfort cafe.', 'Olam.'],
+    photo: 'media/olamcafe.webp',
   },
 ]
 

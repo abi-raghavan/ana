@@ -15,7 +15,7 @@ export const config = {
     'photos/09.jpg',
     'photos/10.jpg',
     'photos/11.jpg',
-    'photos/12.jpg',
+    'media/us.webp',
   ],
 
   letter: [

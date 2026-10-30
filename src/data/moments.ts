@@ -20,7 +20,7 @@ export const chapters: Chapter[] = [
     month: 'May',
     title: 'Already yours',
     caption: 'A small yes, and then the real thing.',
-    photo: 'photos/01.jpg',
+    photo: 'media/firstchat.webp',
     quotes: [
       { text: '0kay 🩷🩷', sender: 'Anju', date: '25 May', time: '10:57 AM' },
       { text: 'I love you 😍 💋 💗', sender: 'Abi', date: '29 May', time: '1:08 PM' },
