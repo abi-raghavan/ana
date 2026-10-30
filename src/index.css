@@ -1,0 +1,59 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-ivory: #fbf7f2;
+  --color-blush: #f3e3df;
+  --color-rose: #c98b8b;
+  --color-wine: #6b1f2a;
+  --color-ink: #3a2a2c;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-hand: 'Caveat', cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+}
+
+body {
+  @apply bg-ivory text-ink font-sans antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-blush);
+  color: var(--color-wine);
+}
+
+.slide {
+  @apply relative flex min-h-svh w-full flex-col items-center justify-center px-6 py-24;
+  scroll-snap-align: start;
+}
+
+.eyebrow {
+  @apply font-sans text-[0.7rem] tracking-[0.35em] uppercase text-rose;
+}
+
+.swiper-pagination-bullet {
+  background: var(--color-rose) !important;
+}
+
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(-16px) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(160px) rotate(540deg);
+    opacity: 0;
+  }
+}
+
+.confetti-piece {
+  position: absolute;
+  top: 0;
+  width: 7px;
+  height: 11px;
+  animation: confetti-fall 1.5s ease-in forwards;
+}

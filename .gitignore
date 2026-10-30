@@ -1,0 +1,14 @@
+node_modules
+dist
+
+# private chat export - never commit
+*.zip
+chat.txt
+chat.md
+src/data/candidates.json
+
+# raw personal photos/videos - originals stay local, only optimized
+# copies in public/media are used by the site
+/media/
+
+.DS_Store
