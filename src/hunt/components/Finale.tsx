@@ -16,35 +16,38 @@ export default function Finale({ wheelResult }: { wheelResult: string | null }) 
         <p className="mt-2 font-serif text-ink/70 italic">...and {wheelResult.toLowerCase()} is still coming.</p>
       )}
 
-      <div className="relative mx-auto mt-8 aspect-[4/5] w-full max-w-[280px] overflow-hidden rounded-xl bg-blush">
-        {!playing ? (
-          <button
-            onClick={() => setPlaying(true)}
-            className="group relative h-full w-full"
-            aria-label="Play video"
-          >
-            <img
-              src={asset('media/surprise-poster.webp')}
-              alt=""
-              loading="lazy"
+      <div className="polaroid relative mx-auto mt-8 w-fit rotate-[1deg]">
+        <span className="tape" aria-hidden />
+        <div className="relative aspect-[4/5] w-56 overflow-hidden rounded-sm bg-blush sm:w-64">
+          {!playing ? (
+            <button
+              onClick={() => setPlaying(true)}
+              className="group relative h-full w-full"
+              aria-label="Play video"
+            >
+              <img
+                src={asset('media/surprise-poster.webp')}
+                alt=""
+                loading="lazy"
+                className="h-full w-full object-cover"
+              />
+              <span className="absolute inset-0 flex items-center justify-center bg-black/20 transition group-hover:bg-black/30">
+                <span className="flex h-14 w-14 items-center justify-center rounded-full bg-ivory/90 text-wine shadow-lg">
+                  ▶
+                </span>
+              </span>
+            </button>
+          ) : (
+            <video
+              src={asset('media/surprise.mp4')}
+              poster={asset('media/surprise-poster.webp')}
+              controls
+              playsInline
+              autoPlay
               className="h-full w-full object-cover"
             />
-            <span className="absolute inset-0 flex items-center justify-center bg-black/20 transition group-hover:bg-black/30">
-              <span className="flex h-14 w-14 items-center justify-center rounded-full bg-ivory/90 text-wine shadow-lg">
-                ▶
-              </span>
-            </span>
-          </button>
-        ) : (
-          <video
-            src={asset('media/surprise.mp4')}
-            poster={asset('media/surprise-poster.webp')}
-            controls
-            playsInline
-            autoPlay
-            className="h-full w-full object-cover"
-          />
-        )}
+          )}
+        </div>
       </div>
 
       <motion.p

@@ -36,10 +36,15 @@ export default function SpinWheel({ onDone }: { onDone: (result: string) => void
       <h3 className="mt-2 font-serif text-2xl text-wine italic">Spin for tonight's surprise</h3>
 
       <div className="relative mx-auto mt-8 h-56 w-56">
+        <span className="absolute -top-3 -left-3 text-rose/50">✦</span>
+        <span className="absolute -top-3 -right-3 text-rose/50">✦</span>
+        <span className="absolute -bottom-2 -left-4 text-rose/40">✧</span>
+        <span className="absolute -right-4 -bottom-2 text-rose/40">✧</span>
         <div
           className="absolute -top-2 left-1/2 z-10 h-0 w-0 -translate-x-1/2 border-x-8 border-t-[14px] border-x-transparent border-t-wine"
           aria-hidden
         />
+        <div className="absolute inset-[-8px] rounded-full border-2 border-dashed border-rose/25" aria-hidden />
         <motion.div
           className="h-full w-full rounded-full border-4 border-ivory shadow-inner"
           style={{ background }}
