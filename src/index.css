@@ -35,10 +35,6 @@ body {
   @apply font-sans text-[0.7rem] tracking-[0.35em] uppercase text-rose;
 }
 
-.swiper-pagination-bullet {
-  background: var(--color-rose) !important;
-}
-
 @keyframes confetti-fall {
   0% {
     transform: translateY(-16px) rotate(0deg);

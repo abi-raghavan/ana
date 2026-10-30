@@ -93,11 +93,3 @@ export const careMessages: Quote[] = [
   { text: 'Payye vannal mathi honey', sender: 'Anju', date: '20 Sep', time: '11:44 AM' },
   { text: 'Kedano honey', sender: 'Anju', date: '21 Oct', time: '12:35 AM' },
 ]
-
-export const littleWords: Quote[] = [
-  { text: 'My babyy', sender: 'Anju', date: '21 Oct' },
-  { text: 'Missing u honey', sender: 'Anju', date: '12 Sep' },
-  { text: 'Honeyyy', sender: 'Anju', date: '19 Sep' },
-  { text: 'Okay baby, be careful, takecare', sender: 'Anju', date: '6 Jul' },
-  { text: 'Abi varundo njan urangi happy ayitu', sender: 'Anju', date: '21 Oct' },
-]

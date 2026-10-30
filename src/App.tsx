@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 import Stats from './components/Stats'
 import Chapter from './components/Chapter'
 import CareSection from './components/CareSection'
-import QuoteCarousel from './components/QuoteCarousel'
+import WordChart from './components/WordChart'
 import Gallery from './components/Gallery'
 import LoveLetter from './components/LoveLetter'
 import HuntDay from './hunt/HuntDay'
@@ -32,7 +32,7 @@ export default function App() {
             <Chapter key={c.month} chapter={c} index={i} />
           ))}
           <CareSection />
-          <QuoteCarousel />
+          <WordChart />
           <Gallery />
           <LoveLetter />
           <HuntDay />
