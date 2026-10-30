@@ -20,10 +20,12 @@ export const config = {
 
   letter: [
     'My dearest Anju,',
-    'You say be careful and take care in the same breath. At 1 AM you told me to rest.',
-    'You wrote "Missing u honey". You called me "my babyy".',
-    'Five years of your care. That is the whole story.',
+    'You always ask if I have eaten.',
+    'You tell me to rest when I am tired.',
+    'You say be careful, take care, every time.',
+    'You called me baby, and I still smile.',
+    'I want to look after you the same way, forever.',
   ],
   signoff: 'Happy Anniversary, Honey ❤️',
-  signature: '- your Abi',
+  signature: 'Your Ethu',
 }
