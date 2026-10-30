@@ -9,7 +9,6 @@ const words: [string, number][] = [
   ['baby', stats.baby],
   ['kisses', stats.kisses],
   ['miss', stats.miss],
-  ['love', stats.love],
 ]
 
 const max = Math.max(...words.map(([, n]) => n))
