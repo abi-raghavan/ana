@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
+import { asset } from '../../asset'
 import { config } from '../../config'
 import Confetti from './Confetti'
 
@@ -23,7 +24,7 @@ export default function Finale({ wheelResult }: { wheelResult: string | null }) 
             aria-label="Play video"
           >
             <img
-              src="media/surprise-poster.webp"
+              src={asset('media/surprise-poster.webp')}
               alt=""
               loading="lazy"
               className="h-full w-full object-cover"
@@ -36,8 +37,8 @@ export default function Finale({ wheelResult }: { wheelResult: string | null }) 
           </button>
         ) : (
           <video
-            src="media/surprise.mp4"
-            poster="media/surprise-poster.webp"
+            src={asset('media/surprise.mp4')}
+            poster={asset('media/surprise-poster.webp')}
             controls
             playsInline
             autoPlay

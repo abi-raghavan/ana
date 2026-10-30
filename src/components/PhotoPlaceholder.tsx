@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { asset } from '../asset'
 
 type Props = { src: string; alt?: string; className?: string }
 
@@ -9,7 +10,7 @@ export default function PhotoPlaceholder({ src, alt = 'us', className = '' }: Pr
     <div className={`relative overflow-hidden rounded-[2px] bg-blush ${className}`}>
       {!failed ? (
         <img
-          src={src}
+          src={asset(src)}
           alt={alt}
           loading="lazy"
           onError={() => setFailed(true)}

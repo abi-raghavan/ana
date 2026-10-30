@@ -1,5 +1,6 @@
 import { useState, type FormEvent } from 'react'
 import { motion } from 'framer-motion'
+import { asset } from '../../asset'
 import type { Stage } from '../data'
 import { isCorrect } from '../utils'
 import Confetti from './Confetti'
@@ -55,7 +56,7 @@ export default function StageCard({
         {expanded && (
           <div className="border-t border-rose/10 px-5 py-4">
             {stage.photo && (
-              <img src={stage.photo} alt="" loading="lazy" className="mb-3 w-full max-w-[220px] rounded-xl" />
+              <img src={asset(stage.photo)} alt="" loading="lazy" className="mb-3 w-full max-w-[220px] rounded-xl" />
             )}
             {stage.reveal.map((line, i) => (
               <p key={i} className="font-serif text-ink/70 italic">
@@ -113,7 +114,7 @@ export default function StageCard({
           className="mt-5"
         >
           {stage.photo && (
-            <img src={stage.photo} alt="" loading="lazy" className="mb-4 w-full max-w-[260px] rounded-xl" />
+            <img src={asset(stage.photo)} alt="" loading="lazy" className="mb-4 w-full max-w-[260px] rounded-xl" />
           )}
           {stage.reveal.map((line, i) => (
             <motion.p

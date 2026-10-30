@@ -10,11 +10,11 @@ export const config = {
   passwordHint: 'the first date you replied (ddmmyyyy)',
 
   gallery: [
-    'photos/07.jpg',
-    'photos/08.jpg',
-    'photos/09.jpg',
-    'photos/10.jpg',
-    'photos/11.jpg',
+    'media/firstchat.webp',
+    'media/photo-1.webp',
+    'media/photo-2.webp',
+    'media/olamcafe.webp',
+    'media/surprise-poster.webp',
     'media/us.webp',
   ],
 

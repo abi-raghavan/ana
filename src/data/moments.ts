@@ -30,7 +30,7 @@ export const chapters: Chapter[] = [
     month: 'June',
     title: 'With a heart',
     caption: 'Even a short reply from you came soft.',
-    photo: 'photos/02.jpg',
+    photo: 'media/photo-1.webp',
     quotes: [
       { text: 'Okay 🩷🩷', sender: 'Anju', date: '29 Jun', time: '7:07 PM' },
       { text: 'Babychuuu ummachuu ❤️🥰😘', sender: 'Abi', date: '26 Jun', time: '12:00 PM' },
@@ -40,7 +40,7 @@ export const chapters: Chapter[] = [
     month: 'July',
     title: 'Be careful. Take care.',
     caption: 'You send me off like I matter.',
-    photo: 'photos/03.jpg',
+    photo: 'media/photo-2.webp',
     quotes: [
       { text: 'Okay baby\nBe careful\nTakecare', sender: 'Anju', date: '6 Jul', time: '4:17 PM' },
       {
@@ -55,7 +55,7 @@ export const chapters: Chapter[] = [
     month: 'August',
     title: 'Rest first',
     caption: 'At 1 AM, you looked after me before yourself.',
-    photo: 'photos/04.jpg',
+    photo: 'media/olamcafe.webp',
     quotes: [
       { text: 'Venda abi\nRest edutho', sender: 'Anju', date: '11 Aug', time: '1:21 AM' },
       { text: 'Honey tired ano', sender: 'Anju', date: '14 Aug', time: '10:42 AM' },
@@ -65,7 +65,7 @@ export const chapters: Chapter[] = [
     month: 'September',
     title: 'Missing u honey',
     caption: 'You said it first.',
-    photo: 'photos/05.jpg',
+    photo: 'media/us.webp',
     quotes: [
       { text: 'Missing u honey', sender: 'Anju', date: '12 Sep', time: '12:28 PM' },
       { text: 'Honeyyy', sender: 'Anju', date: '19 Sep', time: '12:59 PM' },
@@ -76,7 +76,7 @@ export const chapters: Chapter[] = [
     month: 'October',
     title: 'My babyy',
     caption: 'Safe, sleepy, and still yours.',
-    photo: 'photos/06.jpg',
+    photo: 'media/photo-1.webp',
     quotes: [
       { text: 'Be safe\nPayye povane', sender: 'Anju', date: '16 Oct', time: '11:24 PM' },
       { text: 'Kedano honey', sender: 'Anju', date: '21 Oct', time: '12:35 AM' },
