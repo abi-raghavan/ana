@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-const KEY = 'hunt-progress-v2'
+const KEY = 'hunt-progress-v3'
 
 type Progress = {
   unlocked: number // index of the next stage to attempt (stages before this are solved)
