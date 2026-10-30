@@ -8,10 +8,10 @@ export default function CareSection() {
       <Reveal className="text-center">
         <span className="eyebrow">the way you care</span>
         <h2 className="mt-4 font-serif text-4xl font-light text-wine sm:text-5xl">
-          You never forget to ask
+          You just ask
         </h2>
         <p className="mx-auto mt-4 max-w-md font-serif text-lg text-ink/60 italic">
-          Tired ano. Kedano. Payye vannal mathi. This is how you say I love you.
+          Tired ano. Kedano. Payye vannal mathi.
         </p>
       </Reveal>
 

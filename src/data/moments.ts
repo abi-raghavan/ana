@@ -18,8 +18,8 @@ export type Chapter = {
 export const chapters: Chapter[] = [
   {
     month: 'May',
-    title: 'Already yours',
-    caption: 'A small yes, and then the real thing.',
+    title: 'Okay',
+    caption: 'Just a small okay. It was enough.',
     photo: 'media/firstchat.webp',
     quotes: [
       { text: '0kay 🩷🩷', sender: 'Anju', date: '25 May', time: '10:57 AM' },
@@ -28,8 +28,8 @@ export const chapters: Chapter[] = [
   },
   {
     month: 'June',
-    title: 'With a heart',
-    caption: 'Even a short reply from you came soft.',
+    title: 'Babychuuu',
+    caption: 'Some days were only this.',
     photo: 'media/photo-1.webp',
     quotes: [
       { text: 'Okay 🩷🩷', sender: 'Anju', date: '29 Jun', time: '7:07 PM' },
@@ -38,8 +38,8 @@ export const chapters: Chapter[] = [
   },
   {
     month: 'July',
-    title: 'Be careful. Take care.',
-    caption: 'You send me off like I matter.',
+    title: 'Be careful, take care',
+    caption: 'You say this every time I leave.',
     photo: 'media/photo-2.webp',
     quotes: [
       { text: 'Okay baby\nBe careful\nTakecare', sender: 'Anju', date: '6 Jul', time: '4:17 PM' },
@@ -53,8 +53,8 @@ export const chapters: Chapter[] = [
   },
   {
     month: 'August',
-    title: 'Rest first',
-    caption: 'At 1 AM, you looked after me before yourself.',
+    title: 'Rest edutho',
+    caption: 'It was late. You told me to sleep.',
     photo: 'media/olamcafe.webp',
     quotes: [
       { text: 'Venda abi\nRest edutho', sender: 'Anju', date: '11 Aug', time: '1:21 AM' },
@@ -64,7 +64,7 @@ export const chapters: Chapter[] = [
   {
     month: 'September',
     title: 'Missing u honey',
-    caption: 'You said it first.',
+    caption: 'A normal day. You missed me.',
     photo: 'media/us.webp',
     quotes: [
       { text: 'Missing u honey', sender: 'Anju', date: '12 Sep', time: '12:28 PM' },
@@ -75,7 +75,7 @@ export const chapters: Chapter[] = [
   {
     month: 'October',
     title: 'My babyy',
-    caption: 'Safe, sleepy, and still yours.',
+    caption: 'You checked if I reached. Then you slept.',
     photo: 'media/photo-1.webp',
     quotes: [
       { text: 'Be safe\nPayye povane', sender: 'Anju', date: '16 Oct', time: '11:24 PM' },

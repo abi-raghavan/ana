@@ -11,7 +11,7 @@ export default function QuoteCarousel() {
     <section className="slide">
       <Reveal className="text-center">
         <span className="eyebrow">little words</span>
-        <h2 className="mt-4 font-serif text-4xl font-light text-wine sm:text-5xl">The things you say</h2>
+        <h2 className="mt-4 font-serif text-4xl font-light text-wine sm:text-5xl">Small lines</h2>
       </Reveal>
 
       <Reveal delay={0.3} className="mt-12 w-full max-w-2xl">
